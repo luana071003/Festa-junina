@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Festa junina</title>
+  <link rel="stylesheet" href="reset.css">
+  <link rel="shortcut icon" type="imagex/png" href="./assets/milho.png">
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+  
+<body>
+  <!--HEADER-->
+  <header class="header">
+    <nav class="container">
+      <!--Menu hambúrguer (layout mobile)-->
+      <input type="checkbox" class="menu-checkbox" />
+      <div class="menu-lines">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+
+
+      <!--Itens do cabeçalho-->
+      <ul class="lista-menu">
+        <li class="lista-menu__item logo__nome__mobile">
+          <img src="assets/milho.png" class="header__container__logo"">
+          <p class = "nome__site__mobile">FESTA JUNINA</p>
+        </li>
+
+        <li class="lista-menu__item">
+          <a href="#historia" class="lista-menu__link">História</a>
+        </li>
+
+        <li class="lista-menu__item">
+          <a href="#musicas" class="lista-menu__link">Músicas</a>
+        </li>
+
+        <li class="lista-menu__item">
+          <a href="#recipes" class="lista-menu__link">Comidas típicas</a>
+        </li>
+      </ul>
+    </nav>
+
+      <!-- NAVBAR DESKTOP-->
+      <nav class="header__navigation">
+        <div class = "logo__nome">
+          <img class="header__logo" src="assets/milho.png">
+          <h2 class="header__title">Festa Junina</h2>
+        </div>
+
+        <ul class="header__navigation__list">
+          <li class="header__navigation__list__topics"><a href="#historia">História</a></li>
+          <li class="header__navigation__list__topics"><a href="#musicas">Músicas</a></li>
+          <li class="header__navigation__list__topics"><a href="#recipes">Comidas típicas</a></li>
+        </ul>
+      </nav>
+  </header>
+
+
+  <!--SEÇÃO PRINCIPAL-->
+  <main class="main">
+    <section class="main__section__home">
+      <div class="main__section__home__container">
+        <h1 class="main__section__home__title">UAI, SÔ!</h1>
+        <h2 class="main__section__home__description"> Conheça mais sobre a festa junina</h2>
+      </div>
+      <img src="assets/festa-junina.png" class="main__section__home__image">
+    </section>
+
+
+
+    
+    <!--HISTÓRIA DA FESTA JUNINA - SEÇÃO 1-->
+    <section class="main__section__history" id="historia">
+      <div class="main__section__history__text">
+        <h2>HISTÓRIA DA FESTA JUNINA</h2>
+        <p>A festa junina é uma comemoração que é um dos ícones da cultura brasileira. Historicamente, acredita-se que ela tem sua origem em festividades pagãs de mudança de estação: da primavera para o verão, com a intenção de afastar maus espíritos durante a época da colheita. Nesse sentido, ela foi trazida ao Brasil por intermédio dos colonizados católicos vindos de Portugal, uma vez que essa comemoração foi incorporada ao catolicismo.</p>
+      </div>
+      
+      <img class="main__section__history__image" src="assets/violao.png">
+    </section>
+
+
+
+    
+     <!--HISTÓRIA DA FESTA JUNINA - SEÇÃO 2-->
+    <section class="main__section__history2">
+      <img class="main__section__history2__image" src="assets/menina-feliz.png">
+      <div class="main__section__history2__text">
+        <h2>HISTÓRIA DA FESTA JUNINA</h2>
+        <p>Entretanto, a festa foi englobando aspectos das culturas indígena e afro-brasileira, em um processo de aculturação. A cultura dos povos originários se refletiu na comemoração por meio elementos como o uso de fogueiras e rituais relacionados à agricultura e à fertilidade. Já a africana contribuiu com danças, músicas e instrumentos típicos, a exemplo do tambor e da zabumba. Por isso, nós, os autores (João Victor Pedrosa Carvalho e Luana de Jesus Lima), decidimos abordar esse aspecto cultural que se faz presente no cotidiano brasileiro.</p>
+      </div>
+    </section>
+
+
+
+    
+    <!--ALGUMAS MÚSICAS-->
+    <section class="main__section__musicas" id="musicas">
+      <h2 class="main__section__musicas__title">ALGUMAS MÚSICAS...</h2>
+
+      <div class="main__section__musicas__container">
+        <div class="main__section__musicas__container__item">
+          <img class="" src="assets/gonzaga.png">
+          <h3>Xote das meninas</h3>
+          <h4>Luiz Gonzaga</h4>
+          <a href = "https://youtu.be/zsFSHg2hxbc?si=xH3QxTjrKLDC43b5" class = "main__section__musicas__container__item__musica" target="__blank">Ver música</a>
+        </div>
+
+        <div class="main__section__musicas__container__item">
+              <img class="" src="assets/dominguinhos.png">
+              <h3>Eu só quero um xodó</h3>
+              <h4>Dominguinhos</h4>
+              <a href = "https://youtu.be/TPm6YnDNyj0?si=tT3s79K6FrUdlyM_" class = "main__section__musicas__container__item__musica" target="__blank">Ver música</a>
+        </div>
+
+          <div class="main__section__musicas__container__item">
+              <img class="" src="assets/rionegro.png">
+              <h3>Na sola da bota</h3>
+              <h4>Rio Negro e Solimões</h4>
+              <a href = "https://youtu.be/IPCpnRTepRE?si=yKCvNkDDiIzZNS02" class = "main__section__musicas__container__item__musica" target="__blank">Ver música</a>
+          </div>
+      </div>
+    </section>
+
+
+
+
+    
+    <!--SEÇÃO PARA PESQUISAR RECEITAS-->
+    <section class="main__section__recipe" id="recipes">
+      <h2 class="main__section__recipe__title">RECEITAS TÍPICAS DA FESTA JUNINA</h2>
+      <div class="main__section__recipe__search-recipe">
+        <h3 class="main__section__recipe__search-recipe__title">Busque uma receita!</h3>
+        <input class="main__section__recipe__search-recipe__input" type="text" placeholder="Ex: canjica" id="search">
+        <button id="search__button" class="main__section__recipe__search-recipe__button">Pesquisar</button>
+      </div>
+
+      <div id="main__section__recipe__area"></div>
+    </section>
+  </main>
+
+
+
+  
+  <!--FOOTER-->
+  <footer class="footer">
+    <div class="footer__container">
+      <img src="assets/milho.png" class="footer__container__logo"">
+      <p>FESTA JUNINA</p>
+    </div>
+    <p>Copyright © 2024 FESTA JUNINA. Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="animacoes.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

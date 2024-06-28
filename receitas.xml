@@ -1,0 +1,84 @@
+<receitas>
+    <receita>
+        <imagem>https://static.itdg.com.br/images/1200-630/535cc599b45272dd1f4f02f339711e37/cachorro-quente-aprovadissimo.jpg</imagem>
+        <nome>Cachorro-quente</nome>
+        <ingredientes>
+            <ingrediente>
+            3 colheres de sopa de óleo</ingrediente>
+            <ingrediente>
+            1 cebola média cortada em cubos</ingrediente>
+            <ingrediente>2 dentes de alho amassados</ingrediente>
+            <ingrediente>1 pimentão verde pequeno cortado em cubos</ingrediente>
+            <ingrediente>
+            1 tomate médio cortado em cubos</ingrediente>
+            <ingrediente>1 colher de chá de colorau</ingrediente>
+            <ingrediente>1 colher de chá rasa de sal</ingrediente>
+            <ingrediente>2 colheres de sopa de salsinha</ingrediente>
+            <ingrediente>1/2 colher de chá de pimenta-do-reino</ingrediente>
+             <ingrediente>1 caldo de carne ou bacon opcional)</ingrediente>
+            <ingrediente>1 sachê ou 340 gramas de molho de tomate</ingrediente>
+            <ingrediente>10 salsichas</ingrediente>
+            <ingrediente>10 pães de sua preferência</ingrediente>
+            <ingrediente>Batata palha, ketchup e mostarda a gosto</ingrediente>
+    </ingredientes>
+            
+        <modo_preparo>
+            <passo>Pique a cebola, o tomate e o pimentão em cubinhos pequenos.</passo>
+            <passo>Em uma panela, com um fio de azeite, refogue a cebola até murchar (cerca de 30 segundos). Acrescente o alho, mexa bem e refogue por mais 30 segundos.</passo>
+            <passo>Coloque o pimentão e o tomate, misture bem e refogue por cerca de 2 minutos.</passo>
+            <passo>Adicione o colorau, sal, pimenta-do-reino, páprica defumada e, se quiser, o caldo de carne ou bacon. Misture bem para incorporar o sabor. Coloque a salsinha e mexa novamente.</passo>
+            <passo>Despeje o molho de tomate, a água e as salsichas. Deixe cozinhar em fogo médio para reduzir o molho por cerca de 15 minutos. Experimente e, se preciso, acerto o sal.</passo>
+            <passo>Para montar, basta cortar o pão ao meio, sem partir totalmente (deixe as bandas interligadas). Coloque 2 colheres de sopa do molho, 1 salsicha, batata palha, ketchup e mostarda.</passo>
+        </modo_preparo>
+            
+        <tempo_preparo>25 minutos</tempo_preparo>
+    </receita>
+
+
+    <receita>
+        <imagem>https://i.panelinha.com.br/i1/228-bk-3729-cuscuz-de-milho-1.webp</imagem>
+        <nome>Cuscuz</nome>
+        <ingredientes>
+            <ingrediente>1 e 1/2 xícara de chá de farinha de milho flocada</ingrediente>
+            <ingrediente>1/2 colher de chá de sal</ingrediente>
+            <ingrediente>3/4 de xícara de chá de água</ingrediente>
+            <ingrediente>2 colheres de sopa de manteiga</ingrediente>
+        </ingredientes>
+        <modo_preparo>
+            <passo>Separe os ingredientes do seu cuscuz.</passo>
+            <passo>Junte a farinha de milho e o sal em um recipiente.</passo>
+            <passo>Adicione a água gradualmente e mexa a farinha úmida com uma colher até ela ficar com uma textura de areia molhada. Reserve para hidratar por aproximadamente 10 minutos.</passo>
+            <passo>Para preparar a cuscuzeira, encha o fundo dela com água e encaixe o cesto por cima da panela.</passo>
+            <passo>Em seguida, disponha a farinha de milho hidratada sem apertar. Coloque a tampa e cozinhe em fogo alto.</passo>
+            <passo>Quando começar a sair um vapor da lateral entre a tampa e a panela, diminua o fogo e cozinhe por aproximadamente 10 minutinhos (o cuscuz deve estar maior e macio)</passo>
+            <passo>Pare o fogo, e, cuidadosamente, desenforme o cuscuz</passo>
+            <passo>Em uma tigela, misture a manteiga e 1/4 de xícara de chá da água quente da cuscuzeira. Misture com a colher até derreter parte dela, pois o resto ficará derretida com o próprio cuscuz quentinho</passo>
+            <passo>Despeje a água com manteiga no cuscuz. Está pronto! Sirva esse delicioso cuscuz com leite de coco ou ovos cozidos. Bom apetite!</passo>
+        </modo_preparo>
+        <tempo_preparo>40 minutos</tempo_preparo>
+    </receita>
+
+
+    <receita>
+                <imagem>https://p2.trrsf.com/image/fget/cf/774/0/images.terra.com/2023/06/06/957493656-canjica-com-leite-condensado-cozido.jpg</imagem>
+        <nome>Canjica</nome>
+        <ingredientes>
+            <ingrediente>500 g de canjica branca</ingrediente>
+            <ingrediente>1 vidro de leite de coco</ingrediente>
+            <ingrediente>1 litro de leite</ingrediente>
+            <ingrediente>Canela em pó a gosto</ingrediente>
+            <ingrediente>1 lata de leite condensado</ingrediente>
+            <ingrediente>50 g de coco ralado úmido e adoçado</ingrediente>
+            <ingrediente>8 colheres (sopa) de açúcar</ingrediente>
+        </ingredientes>
+        <modo_preparo>
+            <passo>Lavar a canjica em água corrente.</passo>
+            <passo>Deixar de molho por aproximadamente 4 horas com o açúcar.</passo>
+            <passo>Cozinhar na panela de pressão com 2 litros de água por, aproximadamente, 20 minutos ou até que esteja macia.</passo>
+            <passo>Coloque em outra panela se necessário maior, acrescente o leite, o leite de coco, o leite condensado e o coco ralado.</passo>
+            <passo>Deixe ferver por 10 minutos mexendo sempre para não grudar no fundo da panela.</passo>
+            <passo>Desligue o fogo quando estiver bem cremosa.</passo>
+        </modo_preparo>
+        <tempo_preparo>40 minutos</tempo_preparo>
+    </receita>
+</receitas>

@@ -1,0 +1,619 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+/*VARIÁVEIS CSS*/
+:root {
+  --branco: #ffffff;
+  --cinza-escuro: #171313;
+   --preto: #000000;
+  --amarelo: #DB9A18;
+  --verde: #24783C;
+  --verde-intermediario: #1d6030;
+  --verde-claro: #5aaf73;
+  --verde-escuro: #265232;
+  --poppins: "Poppins", sans-serif;
+}
+
+body {
+  color: var(--branco);
+  font-family: var(--poppins);
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+
+/*HEADER*/
+.header {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  top: 0;
+  left: 0;
+  width: 100%;
+  font-size: 13px;
+  z-index: 998;
+}
+
+header.rolagem{
+  background-color: var(--preto);
+  padding: 1rem 0 1rem 0;
+  height: 8vh;
+}
+
+.logo__nome{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.header__title{
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.container{
+  display: none;
+}
+
+.header__logo {
+  width: 75px;
+  padding: 5px;
+}
+
+.header__navigation {
+  display: flex;
+  background-color: var(--verde-escuro);
+  align-items: center;
+  justify-content: space-around;
+  width: 100vw;
+
+}
+
+.header__navigation__list {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  gap: 1rem;
+  margin-right: 10%;
+  font-weight: bold;
+  Color: var(--branco);
+}
+
+.header__navigation__list__topics a {
+  color: var(--branco);
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.header__navigation__list__topics a:hover{
+  border-bottom: 1px solid var(--branco); 
+}
+
+.nome__site__mobile{
+  color: var(--preto);
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin: 0 0 1rem 0;
+}
+
+
+
+
+/*CONTEÚDO PRINCIPAL DO SITE*/
+.main {
+  max-width: 100vw;
+}
+
+
+
+/*SEÇÃO PRINCIPAL*/
+.main__section__home {
+  background-color: var(--amarelo);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  padding: 0 10%;
+  align-items: center;
+  flex-direction: row;
+  font-weight: bold;
+  gap: 7rem;
+}
+
+.main__section__home__container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.main__section__home__title {
+  font-size: 4rem;
+  text-align: left;
+  width: 100%;
+}
+
+.main__section__home__description{
+  font-size: 1.5rem;
+}
+
+.main__section__home__image {
+  width: 25rem;
+  height: 25rem;
+}
+
+
+
+
+/*SEÇÃO DE HISTÓRIA DA FESTA JUNINA - PARTE 1*/
+.main__section__history {
+  background-color: var(--verde);
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0 10% 0 5%;
+  gap: 3rem;
+}
+
+
+.main__section__history__text {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 0.50rem;
+  width: 40%;
+}
+
+.main__section__history__text h2 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.main__section__history__text p {
+  font-size: 1.3rem;
+}
+
+.main__section__history__image {
+  width: 25rem;
+  height: 25rem;
+}
+
+
+
+/*SEÇÃO DE HISTÓRIA DA FESTA JUNINA - PARTE 2*/
+.main__section__history2 {
+  background-color: var(--amarelo);
+  height: 110vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0 5% 0 5%;
+  gap: 3rem;
+  justify-content: center;
+}
+
+.main__section__history2__image {
+  width: 25rem;
+  height: 25rem;
+}
+
+.main__section__history2__text {
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  font-size: 10px;
+  gap: 0.50rem;
+  width: 40%;
+}
+
+.main__section__history2__text h2 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.main__section__history2__text p {
+  font-size: 1.3rem;
+}
+
+
+
+
+/*SEÇÃO COM ALGUMAS MÚSICAS DE FESTA JUNINA*/
+.main__section__musicas {
+  background-color: var(--verde);
+  text-align: center;
+  height: 80vh;
+  padding: 1rem;
+}
+
+.main__section__musicas__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 4rem;
+}
+
+.main__section__musicas__title {
+  font-family: var(--poppins);
+  font-size: 3rem;
+  margin-bottom: 2rem;
+  padding: 2rem 0;
+  font-weight: bold;
+}
+
+.main__section__musicas__container__item h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.main__section__musicas__container__item h4 {
+  font-size: 1.3rem;
+  margin: 0 0 1.3rem 0; 
+}
+
+.main__section__musicas__container__item {
+  background-color: var(--amarelo);
+  padding: 0 0 5rem 0;
+  border-radius: 24px;
+  width: 20rem;
+  gap: 1rem;
+}
+
+.main__section__musicas__container__item__musica{
+  background-color: var(--verde-escuro);
+  text-decoration: none;
+  color: var(--branco);
+  border-radius: 1rem;
+  padding: .5rem;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.main__section__musicas__container__item__musica:hover{
+  background-color: var(--branco);
+  color: var(--verde-escuro);
+}
+
+.main__section__musicas img {
+  width: 20rem;
+  border-top-right-radius: 24px;
+  border-top-left-radius: 24px;
+}
+
+
+
+
+/*SEÇÃO PARA PESQUISAR RECEITAS*/
+.main__section__recipe {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  background-color: var(--amarelo);
+  height: 100vh;
+  color: var(--branco);
+  font-weight: bold;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+#main__section__recipe__area{
+  background-color: var(--preto);
+  padding: 3rem;
+  border-radius: 1rem;
+  display: none;
+  text-align: center;
+}
+
+#recipe__name{
+  color: var (--branco);
+}
+
+.main__section__recipe__title {
+  font-size: 2rem;
+}
+
+.main__section__recipe__search-recipe {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 50%;
+  align-items: center;
+  background-color: var(--verde);
+  border-radius: 28px;
+  padding: 0.5rem 1.5rem;
+}
+
+.main__section__recipe__search-recipe h3 {
+  font-size: 1.4rem;
+  margin: 2rem 0;
+  text-align: center;
+}
+
+.main__section__recipe__search-recipe__input {
+  border-radius: 28px;
+  width: 80%;
+  background-color: var(--verde-intermediario);
+  padding: 0.5rem;
+  color: var(--branco);
+  font-family: var(--poppins);
+  font-size: 1.3rem;
+  
+}
+
+.main__section__recipe__search-recipe__input::placeholder{
+  font-family: var(--poppins);
+  color: var(--verde-claro);
+}
+
+.main__section__recipe__search-recipe__button {
+  border-radius: 28px;
+  background-color: var(--verde-escuro);
+  color: var(--branco);
+  padding: 0.5rem 1.5rem;
+  margin: 1rem;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  font-family: var(--poppins);
+  font-size: 1.2rem;
+}
+
+.main__section__recipe__search-recipe__button:hover {
+  background-color: var(--branco);
+  color: var(--verde-escuro);
+}
+
+#main__section__recipe__area{
+  height: 200vh;
+  width: 50vw;
+}
+
+
+.recipe-image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+
+/*FOOTER*/
+.footer {
+  background-color: var(--verde-escuro);
+  text-align: center;
+  height: 15%;
+}
+
+.footer__container {
+  display: flex;
+  font-weight: bold;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer__container__logo {
+  width: 75px;
+  padding: 5px;
+}
+
+.footer p {
+  font-size: 0.7rem;
+}
+
+
+
+
+
+
+/*RESPONSIVIDADE*/
+@media screen and (max-width: 768px){
+  /*Desabilitando a navbar do desktop e do tablet*/
+  .header__navigation{
+      display: none;
+  }
+
+  .container{
+    display: block;
+    background-color: var(--verde-escuro);
+  }
+
+  /*Checkbox do menu hambúrguer*/
+  .container .menu-checkbox{
+      position: absolute;
+      z-index: 1000;
+      width: 2.1875rem;
+      height: 2.1875rem;
+      opacity: 0;
+      cursor: pointer;
+  }
+
+  /*Div das spans que formam os traços do menu hambúrguer*/
+  .container .menu-lines{
+      position: absolute;
+      z-index: 999;
+      width: 2.1875rem;
+      height: 2.1875rem;
+      margin: 1rem 0.3125rem 0 1rem;
+  }
+
+  /*Traços horizontais que formam o menu hambúrguer*/
+  .container .menu-lines span{
+      display: block;
+      width: 2.1875rem;
+      height: 0.3125rem;
+      margin-bottom: 0.625rem;
+      background-color: var(--verde-escuro);
+      border-radius: 0.625rem;
+      transition: all ease .2s;
+
+  }
+
+  /*Quando o menu hambúrguer é clicado, sua cor muda*/
+  .container .menu-checkbox:checked~.menu-lines span{
+      background-color: var(--amarelo);
+  }
+
+  /*Cada span*/
+      /*Animação de rotação do menu hambúrguer*/
+  .container .menu-checkbox:checked~.menu-lines span:nth-child(1){
+      transform-origin: 0% 0%;
+      transform: rotate(45deg) scaleX(1.25);
+  }
+
+      /*Opacity deixa um elemento presente na tela, mas de modo invisível. No caso, a segunda linha que compõe o menu fica sem visibilidade*/
+  .container .menu-checkbox:checked~.menu-lines span:nth-child(2){
+      opacity: 0;
+  }
+
+      /*Animação de rotação do menu hambúrguer*/
+  .container .menu-checkbox:checked~.menu-lines span:nth-child(3){
+      transform-origin: 0% 100%;
+      transform: rotate(-45deg) scaleX(1.25);
+  }
+
+  /*Fazendo a lista de itens do menu aparecer*/
+  .container .menu-checkbox:checked~.lista-menu{
+      margin-left: 0;
+      display: block;
+      position: absolute;
+  }
+
+  .nome__site__mobile{
+    color: var(--branco);
+  }
+
+  /*Estilizando os itens do menu*/
+  .lista-menu{
+      display: none;
+      position: absolute;
+      z-index: 998;
+      left: 0;
+      width: 50vw;
+      top: 0;
+      height: calc(100vh - 100px);
+      background-color: var(--verde-escuro);
+      padding-top: 100px;
+      margin-left: -40vw;
+
+  }
+
+  /*Estilizando o título do menu*/
+  .lista-menu__titulo{
+      font-size: 1.1rem;
+      font-weight: 700;
+      color: var(--branco);
+      margin: 0 0 1rem 1rem;
+  }
+
+  /*Item do menu*/
+  .lista-menu__item{
+      margin: 0 0 .7rem 1rem;
+  }
+
+  /*Link do item do menu*/
+  .lista-menu__link{
+      text-decoration: none;
+      color: var(--branco);
+      font-size: 1rem;
+      font-weight: 400;
+      transition: all ease .3s;
+  }
+
+  /*Quando o cursor do mouse passar por cima do link, sua cor será alterada*/
+  .lista-menu__link:hover{
+      color: var(--roxo);
+  }
+
+ .logo__nome__mobile{
+   margin: 0;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+ }
+
+  .header__container__logo {
+    width: 75px;
+    padding: 5px;
+  }
+  .main__section__home {
+    background-position: center;
+    flex-direction: column;
+  }
+  
+  .main__section__home__container{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .main__section__home__title {
+    text-align: center;
+    width: 100%;
+  }
+  
+  .main__section__home__image{
+    height: 15rem;
+    width: 15rem;
+  }
+
+  .main__section__history{
+    flex-direction: column;
+    padding: 2rem;
+  }
+
+  .main__section__history2__image {
+    width: 20rem;
+    height: 20rem;
+  }
+  
+  .main__section__musicas{
+    height: auto;
+  }
+  
+  .main__section__musicas__container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  h2 {
+     text-align: center;
+  }
+
+  p {
+    text-align: center;
+  }
+  
+  .main__section__history__text{
+    width: 100%;
+  }
+  .main__section__history__image{
+    width: 20rem;
+    height: 20rem;
+  }
+  
+  .main__section__history2 {
+    flex-direction: column-reverse;
+  }
+
+  .main__section__history2__text {
+    width: 100%;
+  }
+
+  .main__section__recipe__search-recipe {
+    width: 70%;
+  }
+
+  .main__section__recipe__search-recipe__input {
+    width: 80%;
+  }
+}
